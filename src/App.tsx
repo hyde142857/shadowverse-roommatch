@@ -59,7 +59,7 @@ function launchNewIssue(twdata: TweetData) {
 }
 
 function launchGithub(twdata: TweetData) {
-  window.open(GITHUB_PAGES, "_blank");
+  window.open(GITHUB_REPOS, "_blank");
 }
 
 function saveLocalStorage(twdata:TweetData){
